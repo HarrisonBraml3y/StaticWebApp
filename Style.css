@@ -1,0 +1,100 @@
+h1{
+    font-family: 'Courier New';
+    color: black;
+}
+
+
+p{
+    font-family: 'Monospace';
+    color: grey;
+}
+
+body{
+    margin:0;
+    font-family: 'Courier New';
+}
+
+.name_container{
+display: flex;
+align-items: center;
+
+}
+.Image_Container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 40px;
+}
+.Image_Container a{
+    display: inline-flex;
+}
+
+.Logo_Link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo_Link:hover{
+}
+
+.Github_Logo{
+    width: 32px;
+    height: 18px;
+    fill: black;
+}
+.Logo:hover{
+}
+.Logo_Link .Logo{
+    fill: white;
+}
+
+.LinkedIn_Link{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.LinkedIn_Logo:hover{
+}
+.LinkedIn_Logo a:hover svg{
+}
+
+
+.header_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+h1{
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+    padding: 5px 10px;
+}
+nav a:hover{
+    background-color: black;
+    color:white;
+}
+}
+
+.Resume{
+    padding-left: 640px;
+    max-width: 800px;
+}
+.Download_PDF{
+    text-align: center;
+    padding-left: 180px;
+}

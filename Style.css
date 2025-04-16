@@ -88,6 +88,16 @@ nav a:hover{
     background-color: black;
     color:white;
 }
+.ProjectsNav{
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+
+.ProjectsNav a{
+    display: block
+    margin-left: 0;
+    }
 
 .Resume{
     padding-left: 640px;
